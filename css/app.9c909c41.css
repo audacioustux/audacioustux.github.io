@@ -1,1 +1,148 @@
-@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;1,500&display=swap);#whoami{display:flex;padding-top:80px}#follow-on{width:100px}#follow-on ul{list-style:none;padding:0;-ms-writing-mode:tb-lr;writing-mode:vertical-lr;font-size:12px;color:#595959;margin:15px}#follow-on ul li{display:inline-block;margin:20px 0}#follow-on ul li:before{content:"•";padding:5px}#follow-on ul a{color:inherit;text-decoration:none}#intro{color:#233172;font-size:30px;font-family:Playfair Display,serif;padding-right:15px}#intro a{text-decoration:none;border-bottom:1px dashed;color:inherit}#intro h1{margin-top:.5em}#intro h2{margin:.5em 0;line-height:1.5em}.italic{font-style:italic}.highlight{border-bottom:2px solid #e4dee3}body{background-color:#faf2f0;min-height:100vh}.monospace{font-family:IBM Plex Mono,monospace}.container{max-width:1100px;margin:0 auto;padding:0 15px}#page-header{display:flex;justify-content:flex-end}#page-header nav ul{list-style:none}#page-header nav ul li{display:inline-block;padding:1.5rem;text-transform:uppercase;letter-spacing:.1em;font-size:13px;font-weight:500}#page-header nav a{text-decoration:none;color:#264653}#bio{padding:80px 0;display:flex}#bio .avatar{position:relative}#bio .avatar img{border-radius:5px;-webkit-filter:grayscale(10%);filter:grayscale(10%);box-shadow:-14px 16px 48px -17px #c2afa9}#bio .about{padding:0 40px}#bio .about h1{color:#ab5232;font-size:40px;margin:0;font-weight:400}#bio .about p{font-size:18px;color:#6b6768;line-height:1.7em}#bio .info h3{text-transform:uppercase}#bio .info h5{color:#ab5232;margin-top:40px}#bio .info h5 span{margin-left:5px;color:#595959;text-transform:uppercase}#bio .info ul{list-style:none;padding:0;white-space:nowrap;line-height:2.2em;color:#595959;font-size:13px}#bio .info ul b{margin-right:5px}#bio .info a{color:inherit;text-decoration:none;border-bottom:1px dashed}
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;1,500&display=swap);
+#whoami {
+ display:flex;
+ /*! padding-top:80px */
+}
+#follow-on {
+ width:100px
+}
+#follow-on ul {
+ list-style:none;
+ padding:0;
+ -ms-writing-mode:tb-lr;
+ writing-mode:vertical-lr;
+ font-size:12px;
+ color:#595959;
+ margin:15px
+}
+#follow-on ul li {
+ display:inline-block;
+ margin:20px 0
+}
+#follow-on ul li:before {
+ content:"•";
+ padding:5px
+}
+#follow-on ul a {
+ color:inherit;
+ text-decoration:none
+}
+#intro {
+ color:#233172;
+ /*! font-size:30px; */font-family:Playfair Display,serif;
+ padding:15px;
+ min-height: min(100vh,100vw);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: min(1000px, calc(70% + 50px));
+ font-size: clamp(.875rem, 4vw, 3.8rem);
+ margin: 0 auto;
+}
+#intro a {
+ text-decoration:none;
+ border-bottom:1px dashed;
+ color:inherit
+}
+#intro h1 {
+ margin-top:.5em;
+ font-size: 1em;
+}
+#intro h2 {
+ margin:.5em 0;
+ line-height:1.5em;
+ font-size: .875em;
+}
+.italic {
+ font-style:italic
+}
+.highlight {
+ border-bottom:2px solid #e4dee3
+}
+body {
+ background-color:#faf2f0;
+ min-height:100vh
+}
+.monospace {
+ font-family:IBM Plex Mono,monospace;
+ font-size: .5em;
+}
+.container {
+ max-width:1100px;
+ margin:0 auto;
+ padding:0 15px
+}
+#page-header {
+ display:flex;
+ justify-content:flex-end
+}
+#page-header nav ul {
+ list-style:none
+}
+#page-header nav ul li {
+ display:inline-block;
+ padding:1.5rem;
+ text-transform:uppercase;
+ letter-spacing:.1em;
+ font-size:13px;
+ font-weight:500
+}
+#page-header nav a {
+ text-decoration:none;
+ color:#264653
+}
+#bio {
+ padding:80px 0;
+ display:flex
+}
+#bio .avatar {
+ position:relative
+}
+#bio .avatar img {
+ border-radius:5px;
+ -webkit-filter:grayscale(10%);
+ filter:grayscale(10%);
+ box-shadow:-14px 16px 48px -17px #c2afa9
+}
+#bio .about {
+ padding:0 40px
+}
+#bio .about h1 {
+ color:#ab5232;
+ font-size:40px;
+ margin:0;
+ font-weight:400
+}
+#bio .about p {
+ font-size:18px;
+ color:#6b6768;
+ line-height:1.7em
+}
+#bio .info h3 {
+ text-transform:uppercase
+}
+#bio .info h5 {
+ color:#ab5232;
+ margin-top:40px
+}
+#bio .info h5 span {
+ margin-left:5px;
+ color:#595959;
+ text-transform:uppercase
+}
+#bio .info ul {
+ list-style:none;
+ padding:0;
+ white-space:nowrap;
+ line-height:2.2em;
+ color:#595959;
+ font-size:13px
+}
+#bio .info ul b {
+ margin-right:5px
+}
+#bio .info a {
+ color:inherit;
+ text-decoration:none;
+ border-bottom:1px dashed
+}
